@@ -4,13 +4,19 @@
     
 }
 
+body {
+    background: #D6E1F0;
+}
+
 main{
     display:flex;
     justify-content: center;
-    margin-top: 150px;
+    min-height: 100vh;
+    align-items: center;
 }
 
 .container {
+    
     width: 330px;
     display:flex;
     flex-direction: column;
